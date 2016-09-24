@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql-db": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "mega-centro-db",
+    "username": "admin",
+    "password": "e0iOLdodEjSd",
+    "name": "mysql-db",
+    "connector": "mysql",
+    "debug": true
+  },
+  "smtpDs": {
+    "name": "smtpDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "caio.dona@gmail.com",
+          "pass": "12Cdona.03"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "enterprise",
+  "plural": "enterprises",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false,
+      "default": "\"\""
+    },
+    "code": {
+      "type": "string",
+      "required": true,
+      "default": "\"\""
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "\"\""
+    },
+    "createDate": "date"
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
